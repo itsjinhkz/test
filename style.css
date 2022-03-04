@@ -1,0 +1,39 @@
+.container {
+  padding: 20px;
+  display: flex;
+}
+.col_a {
+  font-size: 30px;
+}
+.col_b,
+.col_bx {
+  border: 1px solid blue;
+  background-color: rgb(87, 87, 240);
+  color: white;
+}
+.col_c {
+  color: rgb(0, 187, 250);
+}
+.col_bx {
+  margin-top: 10px;
+}
+.col_1 {
+  border: 2px solid rgb(240, 88, 88);
+  background-color: lightsalmon;
+  color: red;
+  padding: 10px;
+}
+.col_3 {
+  border-left: 5px double rgb(165, 160, 160);
+}
+.row_1,
+.row_2 {
+  margin: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 20px;
+    display: block;
+  }
+}
